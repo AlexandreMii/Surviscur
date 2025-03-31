@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumettre un Serveur Discord</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Soumettre un Serveur Discord</h1>
+    </header>
+    <main>
+        <form id="submitForm">
+            <label for="serverName">Nom du serveur:</label>
+            <input type="text" id="serverName" name="serverName" required>
+
+            <label for="serverLink">Lien du serveur Discord:</label>
+            <input type="text" id="serverLink" name="serverLink" required>
+
+            <label for="serverDescription">Description du serveur:</label>
+            <textarea id="serverDescription" name="serverDescription" required></textarea>
+
+            <button type="submit">Soumettre</button>
+        </form>
+        <div id="submitResults"></div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Surviscur. Tous droits réservés.</p>
+    </footer>
+    <script src="submit_script.js"></script>
+</body>
+</html>
